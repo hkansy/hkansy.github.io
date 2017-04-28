@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>플립북 포토폴리오</title>
+	<style>
+	body {background-image:url(img/bg.png);}
+	.book-wrap{width: 920px;margin:60px auto;}
+	</head>
+<body>
+	<div class="book-wrap">
+		<div id="flipbook">
+			<div class="page"><img src="C:/Users/student/Desktop/명승원/img/1.jpg" alt=""></div>
+			<div class="page"><img src="C:/Users/student/Desktop/명승원/img/2.jpg" alt=""></div>
+			<div class="page"><img src="C:/Users/student/Desktop/명승원/img/3.jpg" alt=""></div>
+			<div class="page"><img src="C:/Users/student/Desktop/명승원/img/4.jpg" alt=""></div>
+		</div>
+		</div>
+		<script src="명승원/lib/jquery.js"></script>
+		<script src="명승원/lib/turn.js"></script>
+		<script>
+		$(function(){
+			$('#flipbook').turn({
+				width:920,height:600
+				)}
+			});
+		</script>
+		
+</body>
+</html>
